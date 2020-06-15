@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page id="Page@63796960:1592233556781" name="page1" version="6.0.1">
+<element height="46" id="Element@133358278:1592233556781" name="Start Of Call" start_of_call="true" type="Page Entry" width="113" x="92" y="73">
+<exit_states>
+<exit_state name="next" target="Element@1472195343:1592233570249"/>
+</exit_states>
+</element>
+<element height="46" id="Element@1359327149:1592233570249" name="setSession" src="com.audium.server.action.context.ApplicationModifier" type="Action Element" width="110" x="93" y="305">
+<exit_states>
+<exit_state name="done" target="Element@1090618843:1592233570249"/>
+</exit_states>
+</element>
+<element height="60" id="Element@733699730:1592233570249" type="Comment" width="307" x="228" y="145">
+<comment><![CDATA[This is test app 1
+You can add datetime comments here to confirm changes
+*************************************************************
+20200612 10:43]]></comment>
+</element>
+<element height="46" id="Element@691479650:1592233570249" name="pBye" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="99" x="399" y="404">
+<exit_states>
+<exit_state name="done" target="Element@193786995:1592233570249"/>
+</exit_states>
+</element>
+<element height="46" id="Element@193786995:1592233570249" type="Hang Up" width="97" x="400" y="303"/>
+<element height="46" id="Element@759353060:1592233570249" name="aMenuSelection" type="Decision" width="135" x="81" y="497">
+<exit_states>
+<exit_state name="1" target="Element@1052280804:1592233570249"/>
+<exit_state name="2" target="Element@691479650:1592233570249"/>
+</exit_states>
+</element>
+<element height="46" id="Element@1052280804:1592233570249" name="pThanks" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="99" x="399" y="495">
+<exit_states>
+<exit_state name="done" target="Element@691479650:1592233570249"/>
+</exit_states>
+</element>
+<element height="46" id="Element@1090618843:1592233570249" name="aMenu" src="com.audium.server.voiceElement.form.MFoundationForm" type="Voice Element" width="95" x="101" y="406">
+<exit_states>
+<exit_state name="done" target="Element@759353060:1592233570249"/>
+<exit_state name="max_nomatch" target="Element@691479650:1592233570249"/>
+<exit_state name="max_noinput" target="Element@691479650:1592233570249">
+<bendpoint>
+<dim1 x="163" y="-32"/>
+<dim2 x="-148" y="-26"/>
+</bendpoint>
+</exit_state>
+</exit_states>
+</element>
+<element height="46" id="Element@1472195343:1592233570249" name="pGreeting" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="102" x="97" y="183">
+<exit_states>
+<exit_state name="done" target="Element@1359327149:1592233570249"/>
+</exit_states>
+</element>
+</page>
