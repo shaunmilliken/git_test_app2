@@ -10,12 +10,13 @@
 <exit_state name="done" target="Element@1090618843:1592233570249"/>
 </exit_states>
 </element>
-<element height="75" id="Element@733699730:1592233570249" type="Comment" width="307" x="239" y="31">
+<element height="90" id="Element@733699730:1592233570249" type="Comment" width="307" x="239" y="31">
 <comment><![CDATA[This is test app 1
 You can add datetime comments here to confirm changes
 *************************************************************
 20200612 10:43
-20200615 10:17]]></comment>
+20200615 10:17
+20200615 Release20.10]]></comment>
 </element>
 <element height="46" id="Element@691479650:1592233570249" name="pBye" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="99" x="399" y="406">
 <exit_states>
