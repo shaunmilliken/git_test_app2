@@ -5,24 +5,25 @@
 <exit_state name="next" target="Element@1472195343:1592233570249"/>
 </exit_states>
 </element>
-<element height="46" id="Element@1359327149:1592233570249" name="setSession" src="com.audium.server.action.context.ApplicationModifier" type="Action Element" width="110" x="93" y="305">
+<element height="46" id="Element@1359327149:1592233570249" name="setSession" src="com.audium.server.action.context.ApplicationModifier" type="Action Element" width="110" x="93" y="303">
 <exit_states>
 <exit_state name="done" target="Element@1090618843:1592233570249"/>
 </exit_states>
 </element>
-<element height="60" id="Element@733699730:1592233570249" type="Comment" width="307" x="228" y="145">
+<element height="75" id="Element@733699730:1592233570249" type="Comment" width="307" x="239" y="31">
 <comment><![CDATA[This is test app 1
 You can add datetime comments here to confirm changes
 *************************************************************
-20200612 10:43]]></comment>
+20200612 10:43
+20200615 10:17]]></comment>
 </element>
-<element height="46" id="Element@691479650:1592233570249" name="pBye" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="99" x="399" y="404">
+<element height="46" id="Element@691479650:1592233570249" name="pBye" src="com.audium.server.voiceElement.audio.MAudio" type="Voice Element" width="99" x="399" y="406">
 <exit_states>
 <exit_state name="done" target="Element@193786995:1592233570249"/>
 </exit_states>
 </element>
 <element height="46" id="Element@193786995:1592233570249" type="Hang Up" width="97" x="400" y="303"/>
-<element height="46" id="Element@759353060:1592233570249" name="aMenuSelection" type="Decision" width="135" x="81" y="497">
+<element height="46" id="Element@759353060:1592233570249" name="aMenuSelection" type="Decision" width="135" x="81" y="495">
 <exit_states>
 <exit_state name="1" target="Element@1052280804:1592233570249"/>
 <exit_state name="2" target="Element@691479650:1592233570249"/>
